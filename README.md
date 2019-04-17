@@ -1,4 +1,4 @@
-# PNLM
+# Pruned Non-Local Means (PNLM)
 *This is my [Science Academies' Summer Research Fellowship Programme (SRFP) 2017](https://web-japps.ias.ac.in:8443/fellowship2017/lists/selectedList.jsp) project done under [Dr. K. N. Chaudhury](https://sites.google.com/site/kunalnchaudhury/home), Dept. of Electrical Engineering, IISc Bengaluru based on the [Pruned Non-Local Means (PNLM)](https://ieeexplore.ieee.org/document/7932291) paper.*  
 
 Pruned Non-Local Means (PNLM) is a denoising algorithm that discards small weights below a certain threshold (computed using Golden Section Search) in the Non-local Means computation. This works well experimentally and the demo attached is a testament to that. The demo has been written in mex code and thus is much faster than the MATLAB code.  
