@@ -6,4 +6,12 @@ Pruned Non-Local Means (PNLM) is a denoising algorithm that discards small weigh
 The details for using the demo have been attached in the [readme](demo/readme.txt) file inside the demo folder.
 
 ### About mex code
-Mex codes are a mixture of C and MATLAB code. Here the variables are called from MATLAB but the operations are performed in C making it faster than its MATLAB version. 
+Mex codes are a mixture of C and MATLAB code. Here the variables are called from MATLAB but the operations are performed in C making it faster than its MATLAB version.  
+
+### Running mex file
+First, ensure that a MinGW compiler compatible with your MATLAB version is installed.  
+- To install the compiler, use the Add-Ons menu described in Get Add-Ons. Search for MinGW or select from Features.  
+- To choose between multiple C or C++ compilers, use `mex -setup` to choose MinGW.  
+For more MinGW setup details, refer [this](https://in.mathworks.com/help/matlab/matlab_external/install-mingw-support-package.html).
+
+Finally, compile the mex file. `mex GUI_mex.c`
