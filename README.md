@@ -15,3 +15,9 @@ First, ensure that a MinGW compiler compatible with your MATLAB version is insta
 For more MinGW setup details, refer [this](https://in.mathworks.com/help/matlab/matlab_external/install-mingw-support-package.html).
 
 Finally, compile the mex file. `mex GUI_mex.c`
+
+<!----
+- Non-Local Means (NLM) is a standard denoising technique in image processing. Pruned Non-Local Means (PNLM) is a variant of NLM that discards the small neighbourhood weights as they are primarily responsible for the noise. Separable Non-Local Means (SNLM) is a NLM variant that aims to achieve comparable performance to the 2-D NLM technique using 1-D filters.
+- The project involved a comprehensive study as well as MATLAB and mex implementation of NLM and PNLM. A GUI with complete abstraction was also developed for demo of PNLM's improvement against NLM for the same parameters.
+- After completing the designated tasks for my internship, I was involved in active research in the work of Separable Non-Local Means (SNLM) during the last weeks of my internship. It was when we were trying to remove horizontal and vertical line artifacts that my intern got over. These artifacts were later removed using bilateral filtering and the work published.
+---->
