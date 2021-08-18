@@ -14,7 +14,8 @@ First, ensure that a MinGW compiler compatible with your MATLAB version is insta
 - To choose between multiple C or C++ compilers, use `mex -setup` to choose MinGW.  
 For more MinGW setup details, refer [this](https://in.mathworks.com/help/matlab/matlab_external/install-mingw-support-package.html).
 
-Finally, compile the mex file. `mex GUI_mex.c`
+Finally, compile the mex file. `mex GUI_mex.c`. It would look like this.
+![Sample MATLAB GUI view](https://github.com/mohatagarvit/PNLM/blob/master/demo/Screenshot.png)
 
 ### Links of the Complete Intern Report
 - [AuthorCafe](https://edu.authorcafe.com/academies/6714/study-and-implementation-of-non-local-means-and-its-variants)
